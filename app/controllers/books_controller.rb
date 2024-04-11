@@ -8,7 +8,7 @@ class BooksController < ApplicationController
     @books = Book.all
     if @book.save
       flash[:notice] = "successfully posted"
-      redirect_to books_path
+      redirect_to book_path(@book.id)
     else
       flash.now[:alert] = "unsuccessfully posted"
       render :index

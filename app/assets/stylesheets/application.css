@@ -31,6 +31,18 @@
   color: red;
 }
 
+.box{
+  margin: 10px;
+}
+
+.box-under{
+  margin-top:40px;
+}
+
+thead th{
+  font-size: 15px;
+}
+
 thead th:first-child {
   width: 70px;
 }
@@ -45,7 +57,7 @@ tbody {
 }
 
 .input-item {
-  margin: 30px 0 0;
+  margin: 25px 0 0;
 }
 
 
